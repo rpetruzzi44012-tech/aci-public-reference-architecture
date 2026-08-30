@@ -1,0 +1,214 @@
+{
+  "authority_effect": "NONE",
+  "geometry": {
+    "BYTE_EXACT_PUBLIC_SAFE": 8,
+    "PATH_NEUTRAL_DERIVATIVE_REQUIRED": 3,
+    "REBUILD_FOR_PUBLIC_PROJECTION": 3
+  },
+  "member_records": [
+    {
+      "disposition": "BYTE_EXACT_PUBLIC_SAFE",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_2026_YEAR_END_IFEVAL_GOAL_v0.1.md",
+      "public_sha256": "77f38b72eab0a7fe77ed759d38f9d7acf8b3a2e6fade4af908a75ab087b95bc5",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_2026_YEAR_END_IFEVAL_GOAL_v0.1.md",
+      "source_sha256": "77f38b72eab0a7fe77ed759d38f9d7acf8b3a2e6fade4af908a75ab087b95bc5",
+      "transformation_type": "BYTE_EXACT_PUBLIC_SAFE"
+    },
+    {
+      "disposition": "BYTE_EXACT_PUBLIC_SAFE",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_ARCHITECTURAL_FINDINGS.json",
+      "public_sha256": "6fd620366c45b434d4f9b49e8004f22881ef42b977ee13c9b0536f563156aac3",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_ARCHITECTURAL_FINDINGS.json",
+      "source_sha256": "6fd620366c45b434d4f9b49e8004f22881ef42b977ee13c9b0536f563156aac3",
+      "transformation_type": "BYTE_EXACT_PUBLIC_SAFE"
+    },
+    {
+      "disposition": "PATH_NEUTRAL_DERIVATIVE_REQUIRED",
+      "exact_transformed_fields_or_lines": [
+        {
+          "occurrences": 1,
+          "replacement_token": "<PRIVATE_ACI_SOURCE_REPOSITORY>",
+          "source_line_locations": [
+            4781
+          ],
+          "source_pattern_class": "PRIVATE_MACHINE_PATH"
+        },
+        {
+          "occurrences": 2,
+          "replacement_token": "<LOCAL_BENCHMARK_WORKSPACE>",
+          "source_line_locations": [
+            4789,
+            4797
+          ],
+          "source_pattern_class": "PRIVATE_MACHINE_PATH"
+        }
+      ],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_EVIDENCE_MANIFEST.json",
+      "public_sha256": "23d9c59af99aa62580128348f1f8d592d4ac4abb173a6bb4313df219088f320a",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_EVIDENCE_MANIFEST.json",
+      "source_sha256": "42375f70296cebd80e2301ee4462db460b9235cff7e4af014cddecff59135c10",
+      "transformation_type": "PATH_NEUTRAL_DERIVATIVE_REQUIRED"
+    },
+    {
+      "disposition": "REBUILD_FOR_PUBLIC_PROJECTION",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_FINAL_PUBLICATION_PACKAGE.zip",
+      "public_sha256": "6af3d3c1f77133adfe75a933e50ea890ba872b7c070cda05a4c7b1ad7ea46bc4",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_FINAL_PUBLICATION_PACKAGE.zip",
+      "source_sha256": "fe064c9b3fe27a2cfb1c272723f3f22a5e7338bcb254ae0030a85c11031165b7",
+      "transformation_type": "REBUILT_AROUND_PUBLIC_PROJECTION"
+    },
+    {
+      "disposition": "REBUILD_FOR_PUBLIC_PROJECTION",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_FINAL_PUBLICATION_PACKAGE.zip.sha256",
+      "public_sha256": "7e8a48e4086eecfe9fa70cab6db5add2002c5a3d64d7c283de416215377da353",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_FINAL_PUBLICATION_PACKAGE.zip.sha256",
+      "source_sha256": "ad8375ffa499c5ef04acef8c24bdc30507164b92c7355bb548e9014b98f16ce9",
+      "transformation_type": "REBUILT_AROUND_PUBLIC_PROJECTION"
+    },
+    {
+      "disposition": "BYTE_EXACT_PUBLIC_SAFE",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_FINAL_REPORT.md",
+      "public_sha256": "96799bb7610f8c2488b7d1a4bffdb5b198a490a33e3b75aabb5bc825b7fcd244",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_FINAL_REPORT.md",
+      "source_sha256": "96799bb7610f8c2488b7d1a4bffdb5b198a490a33e3b75aabb5bc825b7fcd244",
+      "transformation_type": "BYTE_EXACT_PUBLIC_SAFE"
+    },
+    {
+      "disposition": "BYTE_EXACT_PUBLIC_SAFE",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_FINAL_SUMMARY.json",
+      "public_sha256": "366cfd734383a06c204e0d2f7c89db3f375c6251c6d4a6d7eb4aa3589b84f7f6",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_FINAL_SUMMARY.json",
+      "source_sha256": "366cfd734383a06c204e0d2f7c89db3f375c6251c6d4a6d7eb4aa3589b84f7f6",
+      "transformation_type": "BYTE_EXACT_PUBLIC_SAFE"
+    },
+    {
+      "disposition": "BYTE_EXACT_PUBLIC_SAFE",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_METHOD_AND_LIMITATIONS.md",
+      "public_sha256": "fb9f1822bd12149682df7cf5b5964572697b46f6cbcc2233065b037fe4e02fb9",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_METHOD_AND_LIMITATIONS.md",
+      "source_sha256": "fb9f1822bd12149682df7cf5b5964572697b46f6cbcc2233065b037fe4e02fb9",
+      "transformation_type": "BYTE_EXACT_PUBLIC_SAFE"
+    },
+    {
+      "disposition": "PATH_NEUTRAL_DERIVATIVE_REQUIRED",
+      "exact_transformed_fields_or_lines": [
+        {
+          "occurrences": 1,
+          "replacement_token": "<PRIVATE_ACI_SOURCE_REPOSITORY>",
+          "source_line_locations": [
+            26
+          ],
+          "source_pattern_class": "PRIVATE_MACHINE_PATH"
+        },
+        {
+          "occurrences": 1,
+          "replacement_token": "<PRIVATE_ACI_SOURCE_REPOSITORY>",
+          "source_line_locations": [
+            559
+          ],
+          "source_pattern_class": "PRIVATE_MACHINE_PATH"
+        }
+      ],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_ORIGINAL_OUTLINE.md",
+      "public_sha256": "54c954e89074c02b2fdf61821414835c63ced6ba1a94789f899aaac3a520d641",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_ORIGINAL_OUTLINE.md",
+      "source_sha256": "9e492f88bab8d171614d88d89c7b923d50353bb4afef43a09bd19beafc1c1f70",
+      "transformation_type": "PATH_NEUTRAL_DERIVATIVE_REQUIRED"
+    },
+    {
+      "disposition": "BYTE_EXACT_PUBLIC_SAFE",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_RUNTIME_AND_LIVENESS_FINDINGS.json",
+      "public_sha256": "8612c33b484ff32c8ab3d69e4efebcfc12d4a636ddf164694108d034ea6ce633",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/ACI_PUBLIC_BENCHMARK_001_RUNTIME_AND_LIVENESS_FINDINGS.json",
+      "source_sha256": "8612c33b484ff32c8ab3d69e4efebcfc12d4a636ddf164694108d034ea6ce633",
+      "transformation_type": "BYTE_EXACT_PUBLIC_SAFE"
+    },
+    {
+      "disposition": "PATH_NEUTRAL_DERIVATIVE_REQUIRED",
+      "exact_transformed_fields_or_lines": [
+        {
+          "occurrences": 2,
+          "replacement_token": "<PRIVATE_ACI_SOURCE_REPOSITORY>",
+          "source_line_locations": [
+            200,
+            388
+          ],
+          "source_pattern_class": "PRIVATE_MACHINE_PATH"
+        },
+        {
+          "occurrences": 5,
+          "replacement_token": "<LOCAL_BENCHMARK_WORKSPACE>",
+          "source_line_locations": [
+            114,
+            207,
+            214,
+            395,
+            402
+          ],
+          "source_pattern_class": "PRIVATE_MACHINE_PATH"
+        }
+      ],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/BENCHMARK_CARD_FINAL.json",
+      "public_sha256": "4bdaaae753e11c74827b1f8a76c33aeeacee7e42b1a3aa13270eef1d2d223f8f",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/BENCHMARK_CARD_FINAL.json",
+      "source_sha256": "8ca4c94a1ccbef88da318db5563e90eff247bc03a22cdeff787ccc933fb1ff8e",
+      "transformation_type": "PATH_NEUTRAL_DERIVATIVE_REQUIRED"
+    },
+    {
+      "disposition": "REBUILD_FOR_PUBLIC_PROJECTION",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/MANIFEST.sha256",
+      "public_sha256": "bdcddf866f53327b14d0e49e8402a104f7d0bac4774c84b292d240a822d3a228",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/MANIFEST.sha256",
+      "source_sha256": "0c4bc62dfb5a2c1d6b3043f4725782e84aef61e8c5f1ae3035226391de55f2f5",
+      "transformation_type": "REBUILT_AROUND_PUBLIC_PROJECTION"
+    },
+    {
+      "disposition": "BYTE_EXACT_PUBLIC_SAFE",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/NEXT_ACI_BENCHMARK_RECOMMENDATIONS_POST_P11_STAGE12_v0.1.md",
+      "public_sha256": "e092f10537709a7ee95f4a5ab46b07c7ea38b06a9c6fa8c4153173dc11f6ba50",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/NEXT_ACI_BENCHMARK_RECOMMENDATIONS_POST_P11_STAGE12_v0.1.md",
+      "source_sha256": "e092f10537709a7ee95f4a5ab46b07c7ea38b06a9c6fa8c4153173dc11f6ba50",
+      "transformation_type": "BYTE_EXACT_PUBLIC_SAFE"
+    },
+    {
+      "disposition": "BYTE_EXACT_PUBLIC_SAFE",
+      "exact_transformed_fields_or_lines": [],
+      "public_path": "evidence/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/README.md",
+      "public_sha256": "8855417860c650b3a5c324409ebf08e1350ffd92db285f87ac9c1fe7ff8d8f14",
+      "semantic_change": false,
+      "source_path": "outputs/research/public_benchmarks/ACI-PUBLIC-BENCHMARK-001-IFEVAL/README.md",
+      "source_sha256": "8855417860c650b3a5c324409ebf08e1350ffd92db285f87ac9c1fe7ff8d8f14",
+      "transformation_type": "BYTE_EXACT_PUBLIC_SAFE"
+    }
+  ],
+  "projection_id": "ACI-PUBLIC-BENCHMARK-001-IFEVAL-PATH-NEUTRAL-PROJECTION-001",
+  "scientific_boundary": {
+    "FULL_541_IFEVAL_COMPLETED": false,
+    "complete_paired_cases": 126,
+    "official_541_prompt_score": false,
+    "phase_10_reopened": false
+  }
+}

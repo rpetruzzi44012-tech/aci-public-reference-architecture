@@ -1,0 +1,492 @@
+{
+  "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+  "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+  "authority_effect": "NONE",
+  "byte_exact_member_bindings": [
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/__init__.py",
+      "public_member_sha256": "c132a74a13a6f6cbbe8dac7b08c6d94bf329e93addd60d3447d9ed305edd9d16",
+      "source_member_path": "aci_prototype/aci/__init__.py",
+      "source_member_sha256": "c132a74a13a6f6cbbe8dac7b08c6d94bf329e93addd60d3447d9ed305edd9d16",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/algorithms/cga.py",
+      "public_member_sha256": "67f13df3d36b73bb9758023da74ebb0c1e2890cc6e1ac3df3dfcf8570fec6699",
+      "source_member_path": "aci_prototype/aci/algorithms/cga.py",
+      "source_member_sha256": "67f13df3d36b73bb9758023da74ebb0c1e2890cc6e1ac3df3dfcf8570fec6699",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/algorithms/cra.py",
+      "public_member_sha256": "327d4bcd6801313f4a0c1c1aaaacf5e10415c38b2f938fb65d55c184088a0d2e",
+      "source_member_path": "aci_prototype/aci/algorithms/cra.py",
+      "source_member_sha256": "327d4bcd6801313f4a0c1c1aaaacf5e10415c38b2f938fb65d55c184088a0d2e",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/algorithms/gea.py",
+      "public_member_sha256": "0bbab0b1450e7ae095fa30622fae41e3e1b8fb92dd4fbaf4f616ea7d4ea244a9",
+      "source_member_path": "aci_prototype/aci/algorithms/gea.py",
+      "source_member_sha256": "0bbab0b1450e7ae095fa30622fae41e3e1b8fb92dd4fbaf4f616ea7d4ea244a9",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/algorithms/mssa.py",
+      "public_member_sha256": "3d7699ba1b9d3e8ced62750922748c12781eaead15f7d8b4b3d06ee22047acb8",
+      "source_member_path": "aci_prototype/aci/algorithms/mssa.py",
+      "source_member_sha256": "3d7699ba1b9d3e8ced62750922748c12781eaead15f7d8b4b3d06ee22047acb8",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/algorithms/pca.py",
+      "public_member_sha256": "1c3d512292903a3ac8f9446491ee982902f58b7b7da73cb3eb915aa261a9c456",
+      "source_member_path": "aci_prototype/aci/algorithms/pca.py",
+      "source_member_sha256": "1c3d512292903a3ac8f9446491ee982902f58b7b7da73cb3eb915aa261a9c456",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/algorithms/stubs.py",
+      "public_member_sha256": "14f0cd88fa59c477e81c6f73297f4ad93ce5ca2f074bc75bec6c7c10658eff79",
+      "source_member_path": "aci_prototype/aci/algorithms/stubs.py",
+      "source_member_sha256": "14f0cd88fa59c477e81c6f73297f4ad93ce5ca2f074bc75bec6c7c10658eff79",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/audit.py",
+      "public_member_sha256": "08d5afcd326e7237e408f06e0652954337f5be360ae55c7b33dff965b5f7d651",
+      "source_member_path": "aci_prototype/aci/audit.py",
+      "source_member_sha256": "08d5afcd326e7237e408f06e0652954337f5be360ae55c7b33dff965b5f7d651",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/core.py",
+      "public_member_sha256": "d647a900315f06d921bd01b92b6f82cbd6a82698d688827680cdd1e7f32b556e",
+      "source_member_path": "aci_prototype/aci/core.py",
+      "source_member_sha256": "d647a900315f06d921bd01b92b6f82cbd6a82698d688827680cdd1e7f32b556e",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/cycle.py",
+      "public_member_sha256": "3d60f11a1fdba2f6e18b9a53173eaed5eb41ef6ee18ee2da724d94e7a3e7515b",
+      "source_member_path": "aci_prototype/aci/cycle.py",
+      "source_member_sha256": "3d60f11a1fdba2f6e18b9a53173eaed5eb41ef6ee18ee2da724d94e7a3e7515b",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/enums.py",
+      "public_member_sha256": "eacb7102b9695a2c0891c27147254ff2359717ae3e7ce6229cf427a9edd00303",
+      "source_member_path": "aci_prototype/aci/enums.py",
+      "source_member_sha256": "eacb7102b9695a2c0891c27147254ff2359717ae3e7ce6229cf427a9edd00303",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/evidence.py",
+      "public_member_sha256": "f3f3bf4f52c8aea4af5bde9585fadb1d9320ae85bffd82dd2df914e2cc9c77ff",
+      "source_member_path": "aci_prototype/aci/evidence.py",
+      "source_member_sha256": "f3f3bf4f52c8aea4af5bde9585fadb1d9320ae85bffd82dd2df914e2cc9c77ff",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/graphs.py",
+      "public_member_sha256": "52944b3b258f7f5c14cba7db0f4dda1d32e15af08f97dda8dff0f7066db2a44d",
+      "source_member_path": "aci_prototype/aci/graphs.py",
+      "source_member_sha256": "52944b3b258f7f5c14cba7db0f4dda1d32e15af08f97dda8dff0f7066db2a44d",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/metadata.py",
+      "public_member_sha256": "38e7b04e524120cb646b4c6654231e0917798693c035f53d1be55a5a92caec82",
+      "source_member_path": "aci_prototype/aci/metadata.py",
+      "source_member_sha256": "38e7b04e524120cb646b4c6654231e0917798693c035f53d1be55a5a92caec82",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/output.py",
+      "public_member_sha256": "48b705d48664d00d9718c141cafcd9749e8bece1e437be2e429a0eef7189ad83",
+      "source_member_path": "aci_prototype/aci/output.py",
+      "source_member_sha256": "48b705d48664d00d9718c141cafcd9749e8bece1e437be2e429a0eef7189ad83",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/parser.py",
+      "public_member_sha256": "15c4af12a322994820af69b72d5dc89e23db1b488f0165abd5858c78162244fe",
+      "source_member_path": "aci_prototype/aci/parser.py",
+      "source_member_sha256": "15c4af12a322994820af69b72d5dc89e23db1b488f0165abd5858c78162244fe",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/registry.py",
+      "public_member_sha256": "fa772e0a387c2c054c7c18513316fe6f0b5c27fee1836d2f144f16b06e6ac2ac",
+      "source_member_path": "aci_prototype/aci/registry.py",
+      "source_member_sha256": "fa772e0a387c2c054c7c18513316fe6f0b5c27fee1836d2f144f16b06e6ac2ac",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/review_context.py",
+      "public_member_sha256": "13eb41c228cd3b8df3f896fe599fcf02681c6c0129061cc61b2c590a4117147b",
+      "source_member_path": "aci_prototype/aci/review_context.py",
+      "source_member_sha256": "13eb41c228cd3b8df3f896fe599fcf02681c6c0129061cc61b2c590a4117147b",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/state.py",
+      "public_member_sha256": "130376ed013a33d4cf2a4d3e498bcf42d3ffb0b53582f4b31b833544d248906b",
+      "source_member_path": "aci_prototype/aci/state.py",
+      "source_member_sha256": "130376ed013a33d4cf2a4d3e498bcf42d3ffb0b53582f4b31b833544d248906b",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/aci/state_update.py",
+      "public_member_sha256": "c46ab1a371f5173b9013e8f4e16b889bd4eb9b6171942930b3c05e0bf6808812",
+      "source_member_path": "aci_prototype/aci/state_update.py",
+      "source_member_sha256": "c46ab1a371f5173b9013e8f4e16b889bd4eb9b6171942930b3c05e0bf6808812",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/canon/README.md",
+      "public_member_sha256": "a64539c56a6d293f7d1d6a656ac13149227886bfa8788e90ec73de16cc2da1d5",
+      "source_member_path": "aci_prototype/canon/README.md",
+      "source_member_sha256": "a64539c56a6d293f7d1d6a656ac13149227886bfa8788e90ec73de16cc2da1d5",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/docs/CANON_MANIFEST.md",
+      "public_member_sha256": "1d53a2f1448d117706d73d3eb91aa6f2087436aa8751b4ae7c58691eb7f4d110",
+      "source_member_path": "aci_prototype/docs/CANON_MANIFEST.md",
+      "source_member_sha256": "1d53a2f1448d117706d73d3eb91aa6f2087436aa8751b4ae7c58691eb7f4d110",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/docs/CANON_TO_CODE_STATUS.md",
+      "public_member_sha256": "ca7067997b3f100fdab85035f5ed9957949c8fec3038390e57804418937fe152",
+      "source_member_path": "aci_prototype/docs/CANON_TO_CODE_STATUS.md",
+      "source_member_sha256": "ca7067997b3f100fdab85035f5ed9957949c8fec3038390e57804418937fe152",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/docs/FINAL_ACCEPTANCE_RECORD_v0.1.md",
+      "public_member_sha256": "08ea88aca060256178ea07829814ec268b403a6b92677840cb33e66af1d4dd0b",
+      "source_member_path": "aci_prototype/docs/FINAL_ACCEPTANCE_RECORD_v0.1.md",
+      "source_member_sha256": "08ea88aca060256178ea07829814ec268b403a6b92677840cb33e66af1d4dd0b",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/docs/FINAL_COHERENCE_REVIEW.md",
+      "public_member_sha256": "1428a26a7db93ae2ccafe533acf9a17d28056669c2c0d5906efdb314a5c94d68",
+      "source_member_path": "aci_prototype/docs/FINAL_COHERENCE_REVIEW.md",
+      "source_member_sha256": "1428a26a7db93ae2ccafe533acf9a17d28056669c2c0d5906efdb314a5c94d68",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/docs/SCOPE_LOCK.md",
+      "public_member_sha256": "4822336f2d60f63c984f94addb0f9684b38aa319d20507381a7aa9eb0232b083",
+      "source_member_path": "aci_prototype/docs/SCOPE_LOCK.md",
+      "source_member_sha256": "4822336f2d60f63c984f94addb0f9684b38aa319d20507381a7aa9eb0232b083",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/docs/VERSION_NOTES_v0.1.md",
+      "public_member_sha256": "ccc0d022b10947c9203a7975c91f8d75f1757e86c3e386b43bc26a3b5c44b655",
+      "source_member_path": "aci_prototype/docs/VERSION_NOTES_v0.1.md",
+      "source_member_sha256": "ccc0d022b10947c9203a7975c91f8d75f1757e86c3e386b43bc26a3b5c44b655",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/examples/__init__.py",
+      "public_member_sha256": "634b460cd1121a601fd16ecbeaf8b38a53791ff99c1c7ec366a6f9c5878de0b6",
+      "source_member_path": "aci_prototype/examples/__init__.py",
+      "source_member_sha256": "634b460cd1121a601fd16ecbeaf8b38a53791ff99c1c7ec366a6f9c5878de0b6",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/examples/run_minimal_cycle.py",
+      "public_member_sha256": "6f5fe34865246f06f9745fe290bc7aa9777427cb8193c6d86b8966fa65c91316",
+      "source_member_path": "aci_prototype/examples/run_minimal_cycle.py",
+      "source_member_sha256": "6f5fe34865246f06f9745fe290bc7aa9777427cb8193c6d86b8966fa65c91316",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/pyproject.toml",
+      "public_member_sha256": "8c38d2fee34a8604daa87a3cc34c9939fbc949658cb84fdf325df052d7d27daf",
+      "source_member_path": "aci_prototype/pyproject.toml",
+      "source_member_sha256": "8c38d2fee34a8604daa87a3cc34c9939fbc949658cb84fdf325df052d7d27daf",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_category_collapse.py",
+      "public_member_sha256": "f5ce2c7d191b82a85663e92f1ae46c67a74b1547ef09c952e8a89a3bb9e6d30c",
+      "source_member_path": "aci_prototype/tests/test_category_collapse.py",
+      "source_member_sha256": "f5ce2c7d191b82a85663e92f1ae46c67a74b1547ef09c952e8a89a3bb9e6d30c",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_cga.py",
+      "public_member_sha256": "24d8f0f6a89c9da11e466184c69a58781e29bbf739c96845b525683c6bfdd424",
+      "source_member_path": "aci_prototype/tests/test_cga.py",
+      "source_member_sha256": "24d8f0f6a89c9da11e466184c69a58781e29bbf739c96845b525683c6bfdd424",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_cra.py",
+      "public_member_sha256": "38237ae697b0fb1217f81110b1325ce7f8cc9f2803d046a50258c9e329c62c75",
+      "source_member_path": "aci_prototype/tests/test_cra.py",
+      "source_member_sha256": "38237ae697b0fb1217f81110b1325ce7f8cc9f2803d046a50258c9e329c62c75",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_cycle_transaction.py",
+      "public_member_sha256": "7c7ea974f6c95a4782bca74fa93c548b7da5db6453d2e1dff1753b896be13735",
+      "source_member_path": "aci_prototype/tests/test_cycle_transaction.py",
+      "source_member_sha256": "7c7ea974f6c95a4782bca74fa93c548b7da5db6453d2e1dff1753b896be13735",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_enums_and_models.py",
+      "public_member_sha256": "d7918482facb663f8fa5bf4b56d49e1b52abab542ff0459657aa52f9a340183b",
+      "source_member_path": "aci_prototype/tests/test_enums_and_models.py",
+      "source_member_sha256": "d7918482facb663f8fa5bf4b56d49e1b52abab542ff0459657aa52f9a340183b",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_evidence_boundary.py",
+      "public_member_sha256": "41e94110dea0f1b3dc02d1de7cf99e146d8faeb5e4b5bb78eb2c64a4d3158ad0",
+      "source_member_path": "aci_prototype/tests/test_evidence_boundary.py",
+      "source_member_sha256": "41e94110dea0f1b3dc02d1de7cf99e146d8faeb5e4b5bb78eb2c64a4d3158ad0",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_example_runner.py",
+      "public_member_sha256": "14f36f16a47da8dbe7834b1f75801dbaace51c01b124ca6808ce3b143f70dc4a",
+      "source_member_path": "aci_prototype/tests/test_example_runner.py",
+      "source_member_sha256": "14f36f16a47da8dbe7834b1f75801dbaace51c01b124ca6808ce3b143f70dc4a",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_gea.py",
+      "public_member_sha256": "4aef5a48ddc207c0de530ff2a9336ae1b497847b6c32ecf3962db5ec3df577fe",
+      "source_member_path": "aci_prototype/tests/test_gea.py",
+      "source_member_sha256": "4aef5a48ddc207c0de530ff2a9336ae1b497847b6c32ecf3962db5ec3df577fe",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_graph_separation.py",
+      "public_member_sha256": "35c6cbfae83695c4e9639974a7921685bd8117513bb2984327ab93ffd69e202b",
+      "source_member_path": "aci_prototype/tests/test_graph_separation.py",
+      "source_member_sha256": "35c6cbfae83695c4e9639974a7921685bd8117513bb2984327ab93ffd69e202b",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_integrated_cycle.py",
+      "public_member_sha256": "3139a39b28e01f8c01c89637d84716b4ad2cc6ed2fc20fbdc6d665f5ba29b0e9",
+      "source_member_path": "aci_prototype/tests/test_integrated_cycle.py",
+      "source_member_sha256": "3139a39b28e01f8c01c89637d84716b4ad2cc6ed2fc20fbdc6d665f5ba29b0e9",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_metadata_initialization.py",
+      "public_member_sha256": "c7fc1a45a27ccf2d8367ee763bae93087a1dadf8954448116c683ea63f9c74d6",
+      "source_member_path": "aci_prototype/tests/test_metadata_initialization.py",
+      "source_member_sha256": "c7fc1a45a27ccf2d8367ee763bae93087a1dadf8954448116c683ea63f9c74d6",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_mssa.py",
+      "public_member_sha256": "2a05553d9ba542f9cda5fae05573c68188363845a0e748b1ce7d42e5ebd90d68",
+      "source_member_path": "aci_prototype/tests/test_mssa.py",
+      "source_member_sha256": "2a05553d9ba542f9cda5fae05573c68188363845a0e748b1ce7d42e5ebd90d68",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_output.py",
+      "public_member_sha256": "d946ef2a351e02c9ef52b5f31ba2239565b4e6ffe84b311f239ac2ed9508f24a",
+      "source_member_path": "aci_prototype/tests/test_output.py",
+      "source_member_sha256": "d946ef2a351e02c9ef52b5f31ba2239565b4e6ffe84b311f239ac2ed9508f24a",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_parser_boundary.py",
+      "public_member_sha256": "e5c4dc241fee7be9e0f0dec0e26fd004af04cecf8dd1e1a3501b591b4c88276d",
+      "source_member_path": "aci_prototype/tests/test_parser_boundary.py",
+      "source_member_sha256": "e5c4dc241fee7be9e0f0dec0e26fd004af04cecf8dd1e1a3501b591b4c88276d",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_pca.py",
+      "public_member_sha256": "e77745c728c84a21df9116c37595356d73eae979187c888b9579be74f9d3186f",
+      "source_member_path": "aci_prototype/tests/test_pca.py",
+      "source_member_sha256": "e77745c728c84a21df9116c37595356d73eae979187c888b9579be74f9d3186f",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_protected_stubs.py",
+      "public_member_sha256": "da5037f30d5e0552027444af0dfd2e638aaf856be85bd056fe2f90ed487a48fe",
+      "source_member_path": "aci_prototype/tests/test_protected_stubs.py",
+      "source_member_sha256": "da5037f30d5e0552027444af0dfd2e638aaf856be85bd056fe2f90ed487a48fe",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_registry_authority.py",
+      "public_member_sha256": "c3791ccc022cc4e931efa6d35591f8abd0ba5a5879d8158ea45c015db9de140f",
+      "source_member_path": "aci_prototype/tests/test_registry_authority.py",
+      "source_member_sha256": "c3791ccc022cc4e931efa6d35591f8abd0ba5a5879d8158ea45c015db9de140f",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_review_dependencies.py",
+      "public_member_sha256": "ed722a31e00d50e7aa81dd6d663f60d3c15fd149a23821dfd84b9dd75dea6b25",
+      "source_member_path": "aci_prototype/tests/test_review_dependencies.py",
+      "source_member_sha256": "ed722a31e00d50e7aa81dd6d663f60d3c15fd149a23821dfd84b9dd75dea6b25",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_state_isolation.py",
+      "public_member_sha256": "9b22ad029fc1679c8c625ce158fb3b926fec8d91bf736105175acd1c3840ad05",
+      "source_member_path": "aci_prototype/tests/test_state_isolation.py",
+      "source_member_sha256": "9b22ad029fc1679c8c625ce158fb3b926fec8d91bf736105175acd1c3840ad05",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_state_update_application.py",
+      "public_member_sha256": "b1ead29cbee903b2e2d8d106ae17e70f13210de75f141e992a20f231b2340d5d",
+      "source_member_path": "aci_prototype/tests/test_state_update_application.py",
+      "source_member_sha256": "b1ead29cbee903b2e2d8d106ae17e70f13210de75f141e992a20f231b2340d5d",
+      "transform": "BYTE_EXACT_COPY"
+    },
+    {
+      "accepted_archive_identity": "ACI-MIN-v0.1.0-20260701-R1",
+      "accepted_archive_sha256": "890682d877986ea80b27e5260367ee1ac32c2d2e79da632861da0a86e2fe6a36",
+      "public_member_path": "reference_implementations/minimal_aci_v0.1/tests/test_state_update_planning.py",
+      "public_member_sha256": "6e043e4347f0359aa029cddd915ffd2d7bdbfd4ff5318f598b6e5e98e8449662",
+      "source_member_path": "aci_prototype/tests/test_state_update_planning.py",
+      "source_member_sha256": "6e043e4347f0359aa029cddd915ffd2d7bdbfd4ff5318f598b6e5e98e8449662",
+      "transform": "BYTE_EXACT_COPY"
+    }
+  ],
+  "byte_exact_public_member_count": 51,
+  "excluded_internal_member_count": 34,
+  "functional_public_member_count": 52,
+  "generated_public_member_count": 1,
+  "generated_public_readme": {
+    "acceptance_source": false,
+    "canonical": false,
+    "public_member_path": "reference_implementations/minimal_aci_v0.1/README.md",
+    "public_projection_role": "PUBLIC_PROJECTION_NAVIGATION",
+    "public_sha256": "2165edc8cde293944bf61ace47bd6d9edece6d0e3f5a2101736b14377c595ba1",
+    "publication_class": "PUBLIC_SUPPORTING",
+    "source_authority_effect": "NONE",
+    "source_kind": "GENERATED_PUBLIC_SYNTHESIS"
+  },
+  "original_accepted_readme": {
+    "public_body_planned": false,
+    "public_projection_role": "SUPERSEDED_BY_GENERATED_PUBLIC_README",
+    "publication_class": "CATALOG_ONLY",
+    "reason": "PUBLIC_READINESS_CONFLICT_WITH_BYTE_EXACT_SOURCE",
+    "source_identity": "PRESERVED",
+    "source_member_path": "aci_prototype/README.md",
+    "source_sha256": "5a09ce8fb8aac41c419192f90f40088e101531fe6da5f68da862aa472c97fbcd",
+    "source_status": "ACCEPTED_ARCHIVE_MEMBER"
+  },
+  "original_admitted_member_count": 52,
+  "projection_id": "MINIMAL-ACI-v0.1-PUBLIC-PROJECTION-v0.2"
+}

@@ -1,0 +1,443 @@
+{
+  "a1_outcome_policy": {
+    "A1_GOVERNANCE_EXCEPTION": {
+      "architecture_adjusted_instructions": "ALL_FALSE",
+      "architecture_adjusted_task_success": false,
+      "description": "M1 exists, but post-generation ACI processing raised before terminal A1",
+      "regeneration_authorized": false
+    },
+    "A1_NO_OUTPUT": {
+      "architecture_adjusted_instructions": "ALL_FALSE",
+      "architecture_adjusted_task_success": false,
+      "derived_scorer_content": "",
+      "description": "sealed architecture legitimately returned null final_output",
+      "null_substitution": true,
+      "regeneration_authorized": false
+    },
+    "A1_PRE_INFERENCE_FAILURE": {
+      "description": "no M1 exists because identity resolution or inference failed",
+      "ordinary_benchmark_failure": false,
+      "scoring_status": "INFRASTRUCTURE_OR_MODEL_RUN_FAILURE"
+    },
+    "A1_TEXT": {
+      "description": "final_output exists with string content",
+      "scoring": "REFERENCE_IFEVAL_NORMAL"
+    },
+    "sentinel_prose_permitted": false
+  },
+  "benchmark_id": "ACI-PUBLIC-BENCHMARK-001-IFEVAL",
+  "comparison_interpretation": {
+    "A1_minus_M0": "complete deployed-system effect estimate under frozen benchmark conditions",
+    "A1_minus_M1": "post-generation governance/transformation effect estimate under frozen benchmark conditions",
+    "M1_minus_M0": "model-conditioning effect estimate under frozen benchmark conditions",
+    "unqualified_causal_claims_permitted": false
+  },
+  "condition_definitions": {
+    "A1": "exact final governed output from sealed RF-007 over RF-006/RF-005/RF-004/RF-003/RF-001 without another model call",
+    "M0": "direct llama3.1:8b control with exact public prompt, no system message, no glossary, and no continuity projection",
+    "M1": "exact raw model candidate inside the sealed default Phase 10 one-shot route before post-generation ACI transformation"
+  },
+  "execution_order_law": {
+    "even_ordinal": [
+      "M0",
+      "ACI"
+    ],
+    "latency_interpretation": "SECONDARY_EXPLORATORY_SHARED_SERVER_WARM_STATE",
+    "odd_ordinal": [
+      "ACI",
+      "M0"
+    ]
+  },
+  "experiment_status": "BENCHMARK_MEASUREMENT_TERMINATED_INCOMPLETE_BY_FROZEN_CONFIGURATION_LIVENESS_BOUNDARY",
+  "final_analytic_populations": {
+    "A": {
+      "case_count": 3,
+      "purpose": "INSTRUMENT_VERIFICATION_AND_INITIAL_MECHANISM_DISCOVERY"
+    },
+    "B": {
+      "case_count": 30,
+      "family_coverage": "9/9",
+      "instruction_id_coverage": "25/25",
+      "purpose": "TAXONOMY_COVERAGE_PILOT"
+    },
+    "C": {
+      "case_count": 126,
+      "classification": "PARTIAL_PAIRED_IFEVAL_DESCRIPTIVE_RESULT",
+      "missing_prompt_inference": "PROHIBITED",
+      "of_intended": 541
+    }
+  },
+  "final_evidence_chain_digest": "a1549a84189c4c7a7c4a16d1340ea8fd80cad7d22e5c201b19156e2492ac0a91",
+  "full_541_ifeval_completed": false,
+  "generation_configuration": {
+    "base_url": "http://127.0.0.1:11434",
+    "explicit_options": {
+      "num_ctx": 4096,
+      "seed": 0,
+      "temperature": 0.0
+    },
+    "generation_configuration_id": "ollama-ifeval-v1:t0:seed0:ctx4096:stream-false",
+    "model": "llama3.1:8b",
+    "stream": false,
+    "timeout_seconds": 180.0,
+    "transport_epochs": {
+      "epoch_1_read_timeout_seconds": 180,
+      "epoch_2_read_timeout_seconds": 900,
+      "epoch_3_connection_timeout_seconds": 30,
+      "epoch_3_read_timeout_seconds": null
+    }
+  },
+  "ifeval_bindings": {
+    "dataset_identity": {
+      "official_repository": "https://github.com/google-research/google-research.git",
+      "ordered_prompt_hash": "394529c83b789c38757798b874a360fa6e0936c5a527a6bce2093e94b1fabb1f",
+      "path": "instruction_following_eval/data/input_data.jsonl",
+      "pinned_commit": "041338718b4e8151372fd63677104c65b73a0a4e",
+      "record_count": 541,
+      "sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+      "size_bytes": 207111
+    },
+    "hugging_face_secondary_comparison": "NOT_PERFORMED_STEP_4",
+    "known_issues_note_sha256": "dc9dd5b51d8d43a0175addfd581c0caef520cbb4028e53a2e5ea358341489085",
+    "official_unit_tests": {
+      "after_external_resource_install": "48/48 PASS",
+      "initial": "48 RUN; 11 ERROR_MISSING_NLTK_PUNKT_TAB",
+      "official_source_edits": 0
+    },
+    "prompt_manifest": {
+      "entries": 541,
+      "ordered_prompt_hash": "394529c83b789c38757798b874a360fa6e0936c5a527a6bce2093e94b1fabb1f",
+      "sha256": "800b42d36f36abd160ab1072726a09d6b8bfe14ec213389b2e34c27973416506"
+    },
+    "scorer_environment": {
+      "environment_lock_sha256": "dde544db3aa21aa538b6faab63e68d0714f895887fc168cd7290aee2cbfcf858",
+      "environment_path": "<LOCAL_BENCHMARK_WORKSPACE>/envs/ifeval",
+      "pip_freeze": [
+        "absl-py==2.5.0",
+        "click==8.5.0",
+        "defusedxml==0.7.1",
+        "immutabledict==4.3.1",
+        "joblib==1.5.3",
+        "langdetect==1.0.9",
+        "nltk==3.10.3",
+        "pip==25.0.1",
+        "regex==2026.7.19",
+        "six==1.17.0",
+        "tqdm==4.70.0"
+      ],
+      "pip_version": "pip 25.0.1",
+      "python_version": "Python 3.12.13"
+    },
+    "scorer_identity": {
+      "ifeval_subtree_git_tree": "3f9e84b5bf2723f156c4307e99461f7a1acc8cdb",
+      "loose_function": "evaluation_lib.test_instruction_following_loose",
+      "material_file_identities": {
+        "instruction_following_eval/data/input_data.jsonl": {
+          "sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+          "size_bytes": 207111
+        },
+        "instruction_following_eval/evaluation_lib.py": {
+          "sha256": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c",
+          "size_bytes": 6984
+        },
+        "instruction_following_eval/evaluation_main.py": {
+          "sha256": "e6df07a04d25a0e7134933ba2400c26e0129a243e449c88df55043e583fc4b4a",
+          "size_bytes": 2449
+        },
+        "instruction_following_eval/instructions.py": {
+          "sha256": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+          "size_bytes": 55162
+        },
+        "instruction_following_eval/instructions_registry.py": {
+          "sha256": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc",
+          "size_bytes": 7240
+        },
+        "instruction_following_eval/instructions_util.py": {
+          "sha256": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b",
+          "size_bytes": 19538
+        },
+        "instruction_following_eval/requirements.txt": {
+          "sha256": "1b1716c9ac21b9cc2bd0d7354ed8f7b6982ccf35598529601a7c08508acec94a",
+          "size_bytes": 35
+        }
+      },
+      "pinned_commit": "041338718b4e8151372fd63677104c65b73a0a4e",
+      "semantics_sha256": "6ce7adbd0883d42a8a29be213d8320dd73ae35de1c3c07990255fd330e6b95ae",
+      "strict_function": "evaluation_lib.test_instruction_following_strict"
+    },
+    "scorer_input_adapter": {
+      "schema_sha256": "908b3d10e17d36c2608198954b252b545efa77e50c658c9625cec979e5a964dd",
+      "sha256": "9a7824e5f152f806ee33ca42b760550967b43e345eb8cb90041beb5bf374580a",
+      "tests": "7/7 PASS"
+    },
+    "scorer_self_test": {
+      "failed": 0,
+      "fixtures": 20,
+      "passed": 20,
+      "result": "PASS",
+      "result_sha256": "c01a4c3127052c8779694f4b769ad1c5e3f00fbaf53aba9546941f720211492d"
+    }
+  },
+  "live_smoke_evidence": {
+    "a1_outcome_counts": {
+      "A1_TEXT": 3
+    },
+    "case_review_path": "STEP_5_SMOKE_CASE_REVIEW.json",
+    "execution_freeze_sha256": "aac72fd9c10667424de1bc2045b209357489344fe19c1ac174ec04a0c1752a68",
+    "generation_attempts": 6,
+    "generation_processes": 6,
+    "integrity_verdict": "PASS",
+    "m1_to_a1_adjusted_transition_counts": {
+      "PASS->FAIL": 5,
+      "PASS->PASS": 2
+    },
+    "performance_interpretation": "NON_ACCEPTANCE",
+    "postflight": {
+      "live_aci": {
+        "branch": "main",
+        "clean": true,
+        "head": "d5f7575efea831740e89d59b81d10ecc8933dc9b",
+        "root": "<PRIVATE_ACI_SOURCE_REPOSITORY>",
+        "tree": "44e2d4f596143cfc2199177f06ee18d4ed7b4263"
+      },
+      "official_ifeval": {
+        "branch": "HEAD",
+        "clean": true,
+        "head": "041338718b4e8151372fd63677104c65b73a0a4e",
+        "root": "<LOCAL_BENCHMARK_WORKSPACE>/source/google-research-ifeval",
+        "tree": "d5f44af551e9d19219a52a830cd858c0e5e7a5f9"
+      },
+      "sealed_phase10": {
+        "branch": "HEAD",
+        "clean": true,
+        "head": "41c95e422e71530c8e003484d04a1cf332c47fa6",
+        "root": "<LOCAL_BENCHMARK_WORKSPACE>/source/aci_phase10_sealed",
+        "tree": "af2e6e558a85b505316779ef497a49ed949c7f70"
+      }
+    },
+    "prompt_pairing": "3/3 PASS",
+    "request_conformance": "6/6 PASS",
+    "retry_count": 0,
+    "review_sha256": "ce3fed4e418e754e2411f0d5d00623d9c77a58f09efa55abe05e3c5f241f065b",
+    "score_totals": {
+      "A1": {
+        "architecture_adjusted_instruction_pass": 2,
+        "architecture_adjusted_prompt_pass": 0,
+        "instruction_count": 7,
+        "loose_instruction_pass": 2,
+        "loose_prompt_pass": 0,
+        "prompt_count": 3,
+        "strict_instruction_pass": 2,
+        "strict_prompt_pass": 0
+      },
+      "M0": {
+        "architecture_adjusted_instruction_pass": 6,
+        "architecture_adjusted_prompt_pass": 2,
+        "instruction_count": 7,
+        "loose_instruction_pass": 6,
+        "loose_prompt_pass": 2,
+        "prompt_count": 3,
+        "strict_instruction_pass": 6,
+        "strict_prompt_pass": 2
+      },
+      "M1": {
+        "architecture_adjusted_instruction_pass": 7,
+        "architecture_adjusted_prompt_pass": 3,
+        "instruction_count": 7,
+        "loose_instruction_pass": 7,
+        "loose_prompt_pass": 3,
+        "prompt_count": 3,
+        "strict_instruction_pass": 7,
+        "strict_prompt_pass": 3
+      }
+    },
+    "selection_sha256": "e78c4b7c835ea97b173bf2654e73aeee5c1143fdfd0250fbd20ca038763cfada",
+    "timing_totals_exploratory": {
+      "M0": {
+        "eval_count": 1687,
+        "eval_duration": 225178428000,
+        "load_duration": 12785280573,
+        "prompt_eval_count": 198,
+        "prompt_eval_duration": 7867407000,
+        "total_duration": 246079039622
+      },
+      "M1": {
+        "eval_count": 2065,
+        "eval_duration": 289495527000,
+        "load_duration": 4562349,
+        "prompt_eval_count": 720,
+        "prompt_eval_duration": 20258913000,
+        "total_duration": 309969133113
+      }
+    }
+  },
+  "model_identity": {
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "model_tag": "llama3.1:8b",
+    "quantization": "Q4_K_M"
+  },
+  "phase10_reopened": false,
+  "phase11_continuation_recommended": true,
+  "post_p11_stage12_external_benchmark_required_before_phase12": true,
+  "prompt_integrity_law": {
+    "m0_and_aci_prompt_sha256_must_match": true,
+    "prompt_transformation_permitted": false
+  },
+  "research_complete": true,
+  "retry_law": {
+    "a1_no_output_retry": false,
+    "completed_generation_is_semantically_consumed": true,
+    "governance_exception_after_m1_retry": false,
+    "instruction_failure_retry": false,
+    "pre_inference_transport_retry": "AT_MOST_ONE_ONLY_UNDER_LATER_EXPLICIT_AUTHORITY",
+    "scorer_failure_regeneration": false
+  },
+  "schema_version": 1,
+  "scientific_question": "How do sealed Phase 10 ACI model conditioning and post-generation governance change IFEval instruction following relative to a direct llama3.1:8b control under frozen local inference settings?",
+  "score_namespaces": {
+    "aci_adjusted": "ARCHITECTURE_ADJUSTED_IFEVAL_COMPARISON",
+    "official": "REFERENCE_IFEVAL"
+  },
+  "sealed_specimen": {
+    "commit": "41c95e422e71530c8e003484d04a1cf332c47fa6",
+    "tree": "af2e6e558a85b505316779ef497a49ed949c7f70"
+  },
+  "server_default_parameters_not_sent": [
+    "format",
+    "num_predict",
+    "top_p",
+    "top_k",
+    "repeat_penalty",
+    "stop",
+    "keep_alive",
+    "tools",
+    "think"
+  ],
+  "source_bindings": {
+    "BENCHMARK_CARD_DRAFT.json": "6e9a64b6d76937feefe9952a8dacb3c1b3390fec235d7e32bfad2241aadf4d1a",
+    "IFEVAL_PROMPT_MANIFEST_SUMMARY.json": "9f87b5f1c1e0391274829b3d12191bf0d51977e61a9f39bf8308c417afcbb8a9",
+    "IFEVAL_SCORER_SEMANTICS.json": "6ce7adbd0883d42a8a29be213d8320dd73ae35de1c3c07990255fd330e6b95ae",
+    "IFEVAL_SOURCE_IDENTITY.json": "9b30ed4d2b5e750ff12b984795ee27b331a4a1137dfc5ebbf7dbee23df8b88b5",
+    "PREFLIGHT.txt": "2e0c644670db1f46abf97ef2a2aa5171a57373e8881c4268d95266a5890aa90d",
+    "STEP_1_SNAPSHOT_RECORD.txt": "396ca819636093d32fb7c87047e4d9d3ce9ec097768499ddca78f454ac7f5050",
+    "STEP_2_SEALED_REQUEST_CHARACTERIZATION.txt": "8645771fa4244073d1e77ee9edcddcf8f3ed9a9b85c4a20b21b92fe0ce83bac8",
+    "STEP_3_HARNESS_AND_POLICY_RECORD.txt": "fe950906189e6c820b63847f3c0015d4af324f30bb8503e93e5cb1aaa0613d06"
+  },
+  "step_7_blocked_evidence": {
+    "authority_effect": "NONE",
+    "blocked_evidence_sha256": "6d3720e789ab567404f00b0066ef317d96610a467506e45d7759659fecc27beb",
+    "classification": "TERMINAL_FROZEN_TIMEOUT_AFTER_AUTHORIZED_PRE_INFERENCE_RETRY",
+    "complete_541_case_assemblies_available": 51,
+    "completed_new_semantic_conditions": 37,
+    "performance_interpretation": "NOT_REACHED_FULL_RUN_INCOMPLETE",
+    "retry_budget_remaining": 0
+  },
+  "step_7a_continuation_stop": {
+    "attempts_at_900_seconds": 2,
+    "automatic_continuation_authorized": false,
+    "blocked_case": "FULL-052",
+    "blocked_condition": "M0",
+    "captured_candidate": false,
+    "complete_case_assemblies": 64,
+    "completed_new_semantic_conditions": 62,
+    "evidence_sha256": "5ee4111356f6f771431f07eba7b876975d4f6f0304aa4d56f5bf91f0f2a4aa80",
+    "record_sha256": "cd6970eccbb06be4d96d26efbf65f37a4d8119b35c23df4a77ac0536aaad46dc",
+    "status": "GOVERNED_STOP_FUTURE_CONDITION_EXHAUSTED_900_SECOND_RETRY"
+  },
+  "step_7b_continuation_stop": {
+    "automatic_continuation_authorized": false,
+    "automatic_retry_remaining": 0,
+    "blocked_case": "FULL-120",
+    "blocked_condition": "M0",
+    "captured_candidate": false,
+    "complete_case_assemblies": 126,
+    "completed_semantic_answers_regenerated": 0,
+    "elapsed_seconds": 5381,
+    "evidence_sha256": "ab9e7f214b5649dddf4795146e9db069ce5b84dc104650e49cded04d5f42499d",
+    "record_sha256": "e3e1df3fc59786bc95f1fd9b1d6a9275e3ca6523afa0756e3d59f885ad8fcd92",
+    "status": "GOVERNED_STOP_OPERATOR_INTERRUPTION_AFTER_ACTIVE_COMPUTE_NO_CANDIDATE",
+    "step_7_new_case_pairs_complete": 93,
+    "step_7_new_semantic_conditions_complete": 186,
+    "transport_epoch": 3,
+    "transport_policy": "COMPLETION_BOUNDED"
+  },
+  "system_context_identities": {
+    "base_aci_system_context_sha256": "06ef095632d7c5c7c70e23b9c449e3bcb6cea8a8cc4a2c76262a3b8465785046",
+    "composed_m1_system_context_sha256": "85cbfe2c0ea4c6c55663813542df54a925ec1f696263f082be05f2ee935bc005",
+    "protected_glossary_sha256": "e8e59936f12418df9178dad2fda4e5a704456105e24e1f5afe74d8f3f57d6116"
+  },
+  "taxonomy_pilot_evidence": {
+    "a1_outcome_counts": {
+      "A1_TEXT": 30
+    },
+    "case_matrix_path": "STEP_6_PILOT_CASE_MATRIX.json",
+    "case_matrix_sha256": "ebc78feaf6c784068a752531ecfa78e040a6c6419c8bfe0b643eb5505e5a5312",
+    "diagnostic_summary_path": "STEP_6_PILOT_DIAGNOSTIC_SUMMARY.json",
+    "diagnostic_summary_sha256": "dad9edb44235fee9b477a743716c31230e082ab50c79fced936443dcaa31f033",
+    "execution_freeze_sha256": "352125480ead7e459bbf315788d4ae189abfa1480e5357e3af66dc00cb7dd958",
+    "first_answer_reuse_count": 33,
+    "generation_attempts": 60,
+    "generation_processes": 60,
+    "integrity_verdict": "PASS",
+    "performance_interpretation": "DIAGNOSTIC_NON_ACCEPTANCE",
+    "postflight": {
+      "live_aci": {
+        "branch": "main",
+        "clean": true,
+        "head": "d5f7575efea831740e89d59b81d10ecc8933dc9b",
+        "root": "<PRIVATE_ACI_SOURCE_REPOSITORY>",
+        "tree": "44e2d4f596143cfc2199177f06ee18d4ed7b4263"
+      },
+      "official_ifeval": {
+        "branch": "HEAD",
+        "clean": true,
+        "head": "041338718b4e8151372fd63677104c65b73a0a4e",
+        "root": "<LOCAL_BENCHMARK_WORKSPACE>/source/google-research-ifeval",
+        "tree": "d5f44af551e9d19219a52a830cd858c0e5e7a5f9"
+      },
+      "sealed_phase10": {
+        "branch": "HEAD",
+        "clean": true,
+        "head": "41c95e422e71530c8e003484d04a1cf332c47fa6",
+        "root": "<LOCAL_BENCHMARK_WORKSPACE>/source/aci_phase10_sealed",
+        "tree": "af2e6e558a85b505316779ef497a49ed949c7f70"
+      }
+    },
+    "prompt_pairing": "30/30 PASS",
+    "request_conformance": "60/60 PASS",
+    "retry_count": 0,
+    "score_totals": {
+      "A1": {
+        "instruction_count": 56,
+        "loose_instruction_pass": 10,
+        "loose_prompt_pass": 1,
+        "prompt_count": 30,
+        "reference_strict_instruction_pass": 11,
+        "reference_strict_prompt_pass": 1,
+        "strict_instruction_pass": 11,
+        "strict_prompt_pass": 1
+      },
+      "M0": {
+        "instruction_count": 56,
+        "loose_instruction_pass": 47,
+        "loose_prompt_pass": 22,
+        "prompt_count": 30,
+        "reference_strict_instruction_pass": 45,
+        "reference_strict_prompt_pass": 21,
+        "strict_instruction_pass": 45,
+        "strict_prompt_pass": 21
+      },
+      "M1": {
+        "instruction_count": 56,
+        "loose_instruction_pass": 39,
+        "loose_prompt_pass": 18,
+        "prompt_count": 30,
+        "reference_strict_instruction_pass": 35,
+        "reference_strict_prompt_pass": 16,
+        "strict_instruction_pass": 35,
+        "strict_prompt_pass": 16
+      }
+    },
+    "selection_sha256": "39ccd4baac05e0388393f7a971ea61cc84d2238d6ddb1a164f8d84abbf331338"
+  }
+}

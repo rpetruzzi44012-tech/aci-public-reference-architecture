@@ -1,0 +1,1571 @@
+{
+  "analyses": {
+    "population_b_taxonomy_pilot": {
+      "case_count": 30,
+      "classification": "TAXONOMY_COVERAGE_PILOT_DESCRIPTIVE_RESULT",
+      "descriptive_rates": {
+        "instruction_level": {
+          "causal_interpretation": "NOT_ESTABLISHED_DESCRIPTIVE_ONLY",
+          "conditioning_damage": {
+            "denominator": 46,
+            "numerator": 12,
+            "rate": 0.2608695652173913
+          },
+          "conditioning_gain": {
+            "denominator": 10,
+            "numerator": 2,
+            "rate": 0.2
+          },
+          "governance_damage": {
+            "denominator": 36,
+            "numerator": 29,
+            "rate": 0.8055555555555556
+          },
+          "governance_pass_survival": {
+            "denominator": 36,
+            "numerator": 7,
+            "rate": 0.19444444444444445
+          },
+          "governance_rescue": {
+            "denominator": 20,
+            "numerator": 3,
+            "rate": 0.15
+          }
+        },
+        "prompt_level": {
+          "conditioning_damage": {
+            "denominator": 22,
+            "numerator": 7,
+            "rate": 0.3181818181818182
+          },
+          "conditioning_gain": {
+            "denominator": 8,
+            "numerator": 1,
+            "rate": 0.125
+          },
+          "governance_damage": {
+            "denominator": 16,
+            "numerator": 15,
+            "rate": 0.9375
+          },
+          "governance_pass_survival": {
+            "denominator": 16,
+            "numerator": 1,
+            "rate": 0.0625
+          },
+          "governance_rescue": {
+            "denominator": 14,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "interpretation": "DESCRIPTIVE_ONLY_NOT_CAUSAL"
+        }
+      },
+      "metrics": {
+        "A1": {
+          "architecture_adjusted_ifeval_comparison": {
+            "classification": "NON_OFFICIAL_ARCHITECTURE_ADJUSTED_COMPARISON",
+            "strict_instruction": {
+              "denominator": 56,
+              "numerator": 10
+            },
+            "strict_prompt": {
+              "denominator": 30,
+              "numerator": 1
+            }
+          },
+          "reference_ifeval": {
+            "loose_instruction": {
+              "denominator": 56,
+              "numerator": 11
+            },
+            "loose_prompt": {
+              "denominator": 30,
+              "numerator": 1
+            },
+            "strict_instruction": {
+              "denominator": 56,
+              "numerator": 10
+            },
+            "strict_prompt": {
+              "denominator": 30,
+              "numerator": 1
+            }
+          }
+        },
+        "M0": {
+          "reference_ifeval": {
+            "loose_instruction": {
+              "denominator": 56,
+              "numerator": 47
+            },
+            "loose_prompt": {
+              "denominator": 30,
+              "numerator": 22
+            },
+            "strict_instruction": {
+              "denominator": 56,
+              "numerator": 46
+            },
+            "strict_prompt": {
+              "denominator": 30,
+              "numerator": 22
+            }
+          }
+        },
+        "M1": {
+          "reference_ifeval": {
+            "loose_instruction": {
+              "denominator": 56,
+              "numerator": 40
+            },
+            "loose_prompt": {
+              "denominator": 30,
+              "numerator": 18
+            },
+            "strict_instruction": {
+              "denominator": 56,
+              "numerator": 36
+            },
+            "strict_prompt": {
+              "denominator": 30,
+              "numerator": 16
+            }
+          }
+        }
+      },
+      "paired_transitions": {
+        "instruction_level": {
+          "M0_to_A1": {
+            "FAIL->FAIL": 8,
+            "FAIL->PASS": 2,
+            "PASS->FAIL": 38,
+            "PASS->PASS": 8
+          },
+          "M0_to_M1": {
+            "FAIL->FAIL": 8,
+            "FAIL->PASS": 2,
+            "PASS->FAIL": 12,
+            "PASS->PASS": 34
+          },
+          "M1_to_A1": {
+            "FAIL->FAIL": 17,
+            "FAIL->PASS": 3,
+            "PASS->FAIL": 29,
+            "PASS->PASS": 7
+          }
+        },
+        "prompt_level": {
+          "M0_to_A1": {
+            "FAIL->FAIL": 8,
+            "FAIL->PASS": 0,
+            "PASS->FAIL": 21,
+            "PASS->PASS": 1
+          },
+          "M0_to_M1": {
+            "FAIL->FAIL": 7,
+            "FAIL->PASS": 1,
+            "PASS->FAIL": 7,
+            "PASS->PASS": 15
+          },
+          "M1_to_A1": {
+            "FAIL->FAIL": 14,
+            "FAIL->PASS": 0,
+            "PASS->FAIL": 15,
+            "PASS->PASS": 1
+          }
+        }
+      },
+      "taxonomy": {
+        "families": {
+          "change_case": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 5,
+              "strict_pass_count": 5
+            },
+            "M1": {
+              "loose_pass_count": 3,
+              "strict_pass_count": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 5,
+            "prompt_exposure_count": 5
+          },
+          "combination": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 3,
+              "strict_pass_count": 3
+            },
+            "M1": {
+              "loose_pass_count": 3,
+              "strict_pass_count": 3
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 4,
+            "prompt_exposure_count": 4
+          },
+          "detectable_content": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 5,
+              "strict_pass_count": 5
+            },
+            "M1": {
+              "loose_pass_count": 4,
+              "strict_pass_count": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 5,
+            "prompt_exposure_count": 5
+          },
+          "detectable_format": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 10,
+              "strict_pass_count": 10
+            },
+            "M1": {
+              "loose_pass_count": 9,
+              "strict_pass_count": 8
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 11,
+            "prompt_exposure_count": 11
+          },
+          "keywords": {
+            "A1": {
+              "loose_pass_count": 3,
+              "strict_pass_count": 2
+            },
+            "M0": {
+              "loose_pass_count": 5,
+              "strict_pass_count": 6
+            },
+            "M1": {
+              "loose_pass_count": 5,
+              "strict_pass_count": 5
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 9,
+            "prompt_exposure_count": 9
+          },
+          "language": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 3,
+              "strict_pass_count": 3
+            },
+            "M1": {
+              "loose_pass_count": 4,
+              "strict_pass_count": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 4,
+            "prompt_exposure_count": 4
+          },
+          "length_constraints": {
+            "A1": {
+              "loose_pass_count": 1,
+              "strict_pass_count": 1
+            },
+            "M0": {
+              "loose_pass_count": 7,
+              "strict_pass_count": 6
+            },
+            "M1": {
+              "loose_pass_count": 4,
+              "strict_pass_count": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 8,
+            "prompt_exposure_count": 8
+          },
+          "punctuation": {
+            "A1": {
+              "loose_pass_count": 7,
+              "strict_pass_count": 7
+            },
+            "M0": {
+              "loose_pass_count": 6,
+              "strict_pass_count": 5
+            },
+            "M1": {
+              "loose_pass_count": 5,
+              "strict_pass_count": 5
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 7,
+            "prompt_exposure_count": 7
+          },
+          "startend": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 3,
+              "strict_pass_count": 3
+            },
+            "M1": {
+              "loose_pass_count": 3,
+              "strict_pass_count": 3
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 3,
+            "prompt_exposure_count": 3
+          }
+        },
+        "instruction_ids": {
+          "change_case:capital_word_frequency": {
+            "M0_to_M1": {
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 1,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "change_case:english_capital": {
+            "M0_to_M1": {
+              "PASS->FAIL": 2
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 0
+            }
+          },
+          "change_case:english_lowercase": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 1
+            }
+          },
+          "combination:repeat_prompt": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "combination:two_responses": {
+            "M0_to_M1": {
+              "PASS->PASS": 2
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 2
+            }
+          },
+          "detectable_content:number_placeholders": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 1
+            }
+          },
+          "detectable_content:postscript": {
+            "M0_to_M1": {
+              "PASS->PASS": 3
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 3
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 3,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 3,
+              "M1": 3
+            }
+          },
+          "detectable_format:constrained_response": {
+            "M0_to_M1": {
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 1,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "detectable_format:json_format": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "detectable_format:multiple_sections": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 1
+            }
+          },
+          "detectable_format:number_bullet_lists": {
+            "M0_to_M1": {
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 1,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "detectable_format:number_highlighted_sections": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 2
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 3,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 3,
+              "M1": 2
+            }
+          },
+          "detectable_format:title": {
+            "M0_to_M1": {
+              "PASS->PASS": 2
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 2
+            }
+          },
+          "keywords:existence": {
+            "M0_to_M1": {
+              "PASS->PASS": 2
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 2
+            }
+          },
+          "keywords:forbidden_words": {
+            "M0_to_M1": {
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "PASS->PASS": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 1,
+            "strict_pass_counts": {
+              "A1": 1,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "keywords:frequency": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->PASS": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 1,
+              "M0": 2,
+              "M1": 1
+            }
+          },
+          "keywords:letter_frequency": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 3,
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 3,
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 4,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "language:response_language": {
+            "M0_to_M1": {
+              "FAIL->PASS": 1,
+              "PASS->PASS": 3
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 4,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 3,
+              "M1": 4
+            }
+          },
+          "length_constraints:nth_paragraph_first_word": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 1,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 0
+            }
+          },
+          "length_constraints:number_paragraphs": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 2,
+              "PASS->FAIL": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 3
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 3,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 0
+            }
+          },
+          "length_constraints:number_sentences": {
+            "M0_to_M1": {
+              "PASS->FAIL": 2
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "FAIL->PASS": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 1,
+              "M0": 2,
+              "M1": 0
+            }
+          },
+          "length_constraints:number_words": {
+            "M0_to_M1": {
+              "PASS->PASS": 2
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 2
+            }
+          },
+          "punctuation:no_comma": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "FAIL->PASS": 1,
+              "PASS->FAIL": 1,
+              "PASS->PASS": 4
+            },
+            "M1_to_A1": {
+              "FAIL->PASS": 2,
+              "PASS->PASS": 5
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 7,
+            "strict_pass_counts": {
+              "A1": 7,
+              "M0": 5,
+              "M1": 5
+            }
+          },
+          "startend:end_checker": {
+            "M0_to_M1": {
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 1,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "startend:quotation": {
+            "M0_to_M1": {
+              "PASS->PASS": 2
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 2
+            }
+          }
+        }
+      }
+    },
+    "population_c_complete_paired": {
+      "case_count": 126,
+      "classification": "PARTIAL_PAIRED_IFEVAL_DESCRIPTIVE_RESULT",
+      "descriptive_rates": {
+        "instruction_level": {
+          "causal_interpretation": "NOT_ESTABLISHED_DESCRIPTIVE_ONLY",
+          "conditioning_damage": {
+            "denominator": 179,
+            "numerator": 25,
+            "rate": 0.13966480446927373
+          },
+          "conditioning_gain": {
+            "denominator": 30,
+            "numerator": 8,
+            "rate": 0.26666666666666666
+          },
+          "governance_damage": {
+            "denominator": 162,
+            "numerator": 125,
+            "rate": 0.7716049382716049
+          },
+          "governance_pass_survival": {
+            "denominator": 162,
+            "numerator": 37,
+            "rate": 0.22839506172839505
+          },
+          "governance_rescue": {
+            "denominator": 47,
+            "numerator": 7,
+            "rate": 0.14893617021276595
+          }
+        },
+        "prompt_level": {
+          "conditioning_damage": {
+            "denominator": 99,
+            "numerator": 17,
+            "rate": 0.1717171717171717
+          },
+          "conditioning_gain": {
+            "denominator": 27,
+            "numerator": 6,
+            "rate": 0.2222222222222222
+          },
+          "governance_damage": {
+            "denominator": 88,
+            "numerator": 77,
+            "rate": 0.875
+          },
+          "governance_pass_survival": {
+            "denominator": 88,
+            "numerator": 11,
+            "rate": 0.125
+          },
+          "governance_rescue": {
+            "denominator": 38,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "interpretation": "DESCRIPTIVE_ONLY_NOT_CAUSAL"
+        }
+      },
+      "metrics": {
+        "A1": {
+          "architecture_adjusted_ifeval_comparison": {
+            "classification": "NON_OFFICIAL_ARCHITECTURE_ADJUSTED_COMPARISON",
+            "strict_instruction": {
+              "denominator": 209,
+              "numerator": 44
+            },
+            "strict_prompt": {
+              "denominator": 126,
+              "numerator": 11
+            }
+          },
+          "reference_ifeval": {
+            "loose_instruction": {
+              "denominator": 209,
+              "numerator": 45
+            },
+            "loose_prompt": {
+              "denominator": 126,
+              "numerator": 11
+            },
+            "strict_instruction": {
+              "denominator": 209,
+              "numerator": 44
+            },
+            "strict_prompt": {
+              "denominator": 126,
+              "numerator": 11
+            }
+          }
+        },
+        "M0": {
+          "reference_ifeval": {
+            "loose_instruction": {
+              "denominator": 209,
+              "numerator": 184
+            },
+            "loose_prompt": {
+              "denominator": 126,
+              "numerator": 102
+            },
+            "strict_instruction": {
+              "denominator": 209,
+              "numerator": 179
+            },
+            "strict_prompt": {
+              "denominator": 126,
+              "numerator": 99
+            }
+          }
+        },
+        "M1": {
+          "reference_ifeval": {
+            "loose_instruction": {
+              "denominator": 209,
+              "numerator": 170
+            },
+            "loose_prompt": {
+              "denominator": 126,
+              "numerator": 94
+            },
+            "strict_instruction": {
+              "denominator": 209,
+              "numerator": 162
+            },
+            "strict_prompt": {
+              "denominator": 126,
+              "numerator": 88
+            }
+          }
+        }
+      },
+      "paired_transitions": {
+        "instruction_level": {
+          "M0_to_A1": {
+            "FAIL->FAIL": 22,
+            "FAIL->PASS": 8,
+            "PASS->FAIL": 143,
+            "PASS->PASS": 36
+          },
+          "M0_to_M1": {
+            "FAIL->FAIL": 22,
+            "FAIL->PASS": 8,
+            "PASS->FAIL": 25,
+            "PASS->PASS": 154
+          },
+          "M1_to_A1": {
+            "FAIL->FAIL": 40,
+            "FAIL->PASS": 7,
+            "PASS->FAIL": 125,
+            "PASS->PASS": 37
+          }
+        },
+        "prompt_level": {
+          "M0_to_A1": {
+            "FAIL->FAIL": 26,
+            "FAIL->PASS": 1,
+            "PASS->FAIL": 89,
+            "PASS->PASS": 10
+          },
+          "M0_to_M1": {
+            "FAIL->FAIL": 21,
+            "FAIL->PASS": 6,
+            "PASS->FAIL": 17,
+            "PASS->PASS": 82
+          },
+          "M1_to_A1": {
+            "FAIL->FAIL": 38,
+            "FAIL->PASS": 0,
+            "PASS->FAIL": 77,
+            "PASS->PASS": 11
+          }
+        }
+      },
+      "taxonomy": {
+        "families": {
+          "change_case": {
+            "A1": {
+              "loose_pass_count": 2,
+              "strict_pass_count": 2
+            },
+            "M0": {
+              "loose_pass_count": 20,
+              "strict_pass_count": 19
+            },
+            "M1": {
+              "loose_pass_count": 18,
+              "strict_pass_count": 17
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 24,
+            "prompt_exposure_count": 22
+          },
+          "combination": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 15,
+              "strict_pass_count": 14
+            },
+            "M1": {
+              "loose_pass_count": 14,
+              "strict_pass_count": 14
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 16,
+            "prompt_exposure_count": 16
+          },
+          "detectable_content": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 13,
+              "strict_pass_count": 13
+            },
+            "M1": {
+              "loose_pass_count": 13,
+              "strict_pass_count": 13
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 14,
+            "prompt_exposure_count": 13
+          },
+          "detectable_format": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 35,
+              "strict_pass_count": 33
+            },
+            "M1": {
+              "loose_pass_count": 32,
+              "strict_pass_count": 29
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 38,
+            "prompt_exposure_count": 37
+          },
+          "keywords": {
+            "A1": {
+              "loose_pass_count": 15,
+              "strict_pass_count": 14
+            },
+            "M0": {
+              "loose_pass_count": 37,
+              "strict_pass_count": 38
+            },
+            "M1": {
+              "loose_pass_count": 37,
+              "strict_pass_count": 37
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 45,
+            "prompt_exposure_count": 39
+          },
+          "language": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 5,
+              "strict_pass_count": 5
+            },
+            "M1": {
+              "loose_pass_count": 4,
+              "strict_pass_count": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 6,
+            "prompt_exposure_count": 6
+          },
+          "length_constraints": {
+            "A1": {
+              "loose_pass_count": 12,
+              "strict_pass_count": 12
+            },
+            "M0": {
+              "loose_pass_count": 30,
+              "strict_pass_count": 29
+            },
+            "M1": {
+              "loose_pass_count": 26,
+              "strict_pass_count": 23
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 35,
+            "prompt_exposure_count": 33
+          },
+          "punctuation": {
+            "A1": {
+              "loose_pass_count": 16,
+              "strict_pass_count": 16
+            },
+            "M0": {
+              "loose_pass_count": 15,
+              "strict_pass_count": 14
+            },
+            "M1": {
+              "loose_pass_count": 14,
+              "strict_pass_count": 14
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 16,
+            "prompt_exposure_count": 16
+          },
+          "startend": {
+            "A1": {
+              "loose_pass_count": 0,
+              "strict_pass_count": 0
+            },
+            "M0": {
+              "loose_pass_count": 14,
+              "strict_pass_count": 14
+            },
+            "M1": {
+              "loose_pass_count": 12,
+              "strict_pass_count": 11
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "instruction_exposure_count": 15,
+            "prompt_exposure_count": 15
+          }
+        },
+        "instruction_ids": {
+          "change_case:capital_word_frequency": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 2,
+              "PASS->PASS": 4
+            },
+            "M1_to_A1": {
+              "FAIL->PASS": 2,
+              "PASS->FAIL": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 6,
+            "strict_pass_counts": {
+              "A1": 2,
+              "M0": 4,
+              "M1": 4
+            }
+          },
+          "change_case:english_capital": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "FAIL->PASS": 1,
+              "PASS->FAIL": 2,
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 3,
+              "PASS->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 5,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 3,
+              "M1": 2
+            }
+          },
+          "change_case:english_lowercase": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 1,
+              "PASS->PASS": 11
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 2,
+              "PASS->FAIL": 11
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 13,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 12,
+              "M1": 11
+            }
+          },
+          "combination:repeat_prompt": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 2,
+              "PASS->PASS": 8
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 2,
+              "PASS->FAIL": 8
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 10,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 8,
+              "M1": 8
+            }
+          },
+          "combination:two_responses": {
+            "M0_to_M1": {
+              "PASS->PASS": 6
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 6
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 6,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 6,
+              "M1": 6
+            }
+          },
+          "detectable_content:number_placeholders": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 4
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 5,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 5,
+              "M1": 4
+            }
+          },
+          "detectable_content:postscript": {
+            "M0_to_M1": {
+              "FAIL->PASS": 1,
+              "PASS->PASS": 8
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 9
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 9,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 8,
+              "M1": 9
+            }
+          },
+          "detectable_format:constrained_response": {
+            "M0_to_M1": {
+              "PASS->PASS": 1
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 1,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 1,
+              "M1": 1
+            }
+          },
+          "detectable_format:json_format": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 3,
+              "PASS->PASS": 3
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 3,
+              "PASS->FAIL": 3
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 6,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 3,
+              "M1": 3
+            }
+          },
+          "detectable_format:multiple_sections": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 5
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 5
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 6,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 6,
+              "M1": 5
+            }
+          },
+          "detectable_format:number_bullet_lists": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "PASS->PASS": 7
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 7
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 8,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 7,
+              "M1": 7
+            }
+          },
+          "detectable_format:number_highlighted_sections": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 2,
+              "PASS->PASS": 5
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 3,
+              "PASS->FAIL": 5
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 8,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 7,
+              "M1": 5
+            }
+          },
+          "detectable_format:title": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 8
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 8
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 9,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 9,
+              "M1": 8
+            }
+          },
+          "keywords:existence": {
+            "M0_to_M1": {
+              "FAIL->PASS": 2,
+              "PASS->PASS": 12
+            },
+            "M1_to_A1": {
+              "PASS->FAIL": 14
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 14,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 12,
+              "M1": 14
+            }
+          },
+          "keywords:forbidden_words": {
+            "M0_to_M1": {
+              "FAIL->PASS": 1,
+              "PASS->PASS": 10
+            },
+            "M1_to_A1": {
+              "PASS->PASS": 11
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 11,
+            "strict_pass_counts": {
+              "A1": 11,
+              "M0": 10,
+              "M1": 11
+            }
+          },
+          "keywords:frequency": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 4,
+              "PASS->PASS": 7
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 5,
+              "PASS->FAIL": 5,
+              "PASS->PASS": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 12,
+            "strict_pass_counts": {
+              "A1": 2,
+              "M0": 11,
+              "M1": 7
+            }
+          },
+          "keywords:letter_frequency": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 3,
+              "PASS->PASS": 5
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 3,
+              "PASS->FAIL": 4,
+              "PASS->PASS": 1
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 8,
+            "strict_pass_counts": {
+              "A1": 1,
+              "M0": 5,
+              "M1": 5
+            }
+          },
+          "language:response_language": {
+            "M0_to_M1": {
+              "FAIL->PASS": 1,
+              "PASS->FAIL": 2,
+              "PASS->PASS": 3
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 2,
+              "PASS->FAIL": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 6,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 5,
+              "M1": 4
+            }
+          },
+          "length_constraints:nth_paragraph_first_word": {
+            "M0_to_M1": {
+              "PASS->FAIL": 2
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 2
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 2,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 2,
+              "M1": 0
+            }
+          },
+          "length_constraints:number_paragraphs": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 2,
+              "PASS->FAIL": 2,
+              "PASS->PASS": 4
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 4,
+              "PASS->FAIL": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 8,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 6,
+              "M1": 4
+            }
+          },
+          "length_constraints:number_sentences": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 3,
+              "FAIL->PASS": 1,
+              "PASS->FAIL": 2,
+              "PASS->PASS": 5
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 2,
+              "FAIL->PASS": 3,
+              "PASS->FAIL": 2,
+              "PASS->PASS": 4
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 11,
+            "strict_pass_counts": {
+              "A1": 7,
+              "M0": 7,
+              "M1": 6
+            }
+          },
+          "length_constraints:number_words": {
+            "M0_to_M1": {
+              "PASS->FAIL": 1,
+              "PASS->PASS": 13
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 8,
+              "PASS->PASS": 5
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 14,
+            "strict_pass_counts": {
+              "A1": 5,
+              "M0": 14,
+              "M1": 13
+            }
+          },
+          "punctuation:no_comma": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "FAIL->PASS": 1,
+              "PASS->FAIL": 1,
+              "PASS->PASS": 13
+            },
+            "M1_to_A1": {
+              "FAIL->PASS": 2,
+              "PASS->PASS": 14
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 16,
+            "strict_pass_counts": {
+              "A1": 16,
+              "M0": 14,
+              "M1": 14
+            }
+          },
+          "startend:end_checker": {
+            "M0_to_M1": {
+              "PASS->FAIL": 2,
+              "PASS->PASS": 3
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 2,
+              "PASS->FAIL": 3
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 5,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 5,
+              "M1": 3
+            }
+          },
+          "startend:quotation": {
+            "M0_to_M1": {
+              "FAIL->FAIL": 1,
+              "PASS->FAIL": 1,
+              "PASS->PASS": 8
+            },
+            "M1_to_A1": {
+              "FAIL->FAIL": 2,
+              "PASS->FAIL": 8
+            },
+            "classification": "DESCRIPTIVE_PILOT_ONLY",
+            "exposure_count": 10,
+            "strict_pass_counts": {
+              "A1": 0,
+              "M0": 9,
+              "M1": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "architectural_findings_file": "ACI_PUBLIC_BENCHMARK_001_ARCHITECTURAL_FINDINGS.json",
+  "benchmark_id": "ACI-PUBLIC-BENCHMARK-001-IFEVAL",
+  "campaign_status": "BENCHMARK_MEASUREMENT_TERMINATED_INCOMPLETE_BY_FROZEN_CONFIGURATION_LIVENESS_BOUNDARY",
+  "claims_not_made": [
+    "OFFICIAL_COMPLETE_541_PROMPT_IFEVAL_SCORE",
+    "ACI_ACCEPTANCE_FAILURE",
+    "PROVEN_LITERAL_MODEL_NONTERMINATION",
+    "PHASE_10_INVALIDITY"
+  ],
+  "created_utc": "2026-08-29T20:30:31Z",
+  "evidence_chain_digest": "a1549a84189c4c7a7c4a16d1340ea8fd80cad7d22e5c201b19156e2492ac0a91",
+  "final_status": {
+    "ACI_PUBLIC_BENCHMARK_001_RESEARCH_COMPLETE": true,
+    "FULL_541_IFEVAL_COMPLETED": false,
+    "PHASE_10_REOPENED": false,
+    "PHASE_11_CONTINUATION_RECOMMENDED": true,
+    "POST_P11_STAGE12_EXTERNAL_BENCHMARK_REQUIRED_BEFORE_PHASE12": true
+  },
+  "phase10_decision": {
+    "BENCHMARK_INFORMED_PHASE_10_REPAIR_AUTHORIZED": false,
+    "PHASE_10_REOPENED": false,
+    "PHASE_10_SEALED_SPECIMEN_REMAINS_HISTORICAL_BASELINE": true,
+    "PHASE_11_CONTINUATION_RECOMMENDED": true
+  },
+  "populations": {
+    "A": {
+      "case_count": 3,
+      "purpose": "INSTRUMENT_VERIFICATION_AND_INITIAL_MECHANISM_DISCOVERY"
+    },
+    "B": {
+      "case_count": 30,
+      "family_coverage": "9/9",
+      "instruction_id_coverage": "25/25",
+      "purpose": "TAXONOMY_COVERAGE_PILOT"
+    },
+    "C": {
+      "case_count": 126,
+      "classification": "PARTIAL_PAIRED_IFEVAL_DESCRIPTIVE_RESULT",
+      "missing_prompt_inference": "PROHIBITED",
+      "of_intended": 541
+    }
+  },
+  "runtime_findings_file": "ACI_PUBLIC_BENCHMARK_001_RUNTIME_AND_LIVENESS_FINDINGS.json",
+  "schema_version": 1,
+  "scoring_reproducibility_binding": {
+    "langdetect_DetectorFactory_seed": 0,
+    "pinned_scorer_bytes_unchanged": true,
+    "python_random_seed": 0
+  },
+  "specimen": {
+    "generation": {
+      "num_ctx": 4096,
+      "num_predict": "NOT_SENT",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0.0
+    },
+    "model": "llama3.1:8b",
+    "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "phase10_commit": "41c95e422e71530c8e003484d04a1cf332c47fa6",
+    "phase10_tree": "af2e6e558a85b505316779ef497a49ed949c7f70",
+    "quantization": "Q4_K_M"
+  },
+  "workflow_lesson": "ACCEPT -> FREEZE -> BENCHMARK -> MAP -> EXTEND"
+}

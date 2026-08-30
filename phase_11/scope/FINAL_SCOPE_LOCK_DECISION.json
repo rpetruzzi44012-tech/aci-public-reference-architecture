@@ -1,0 +1,136 @@
+{
+  "record_id": "ACI-P11-SCOPE-LOCK-001-FINAL",
+  "record_type": "aci.phase_11_scope_lock_final_decision",
+  "schema_version": "1.0",
+  "task_id": "ACI-P11-SCOPE-LOCK-001",
+  "step": "STEP_3_FINAL_SCOPE_LOCK_ADJUDICATION_AND_APPROVAL",
+  "adjudication_date": "2026-07-31",
+  "approval_date": "2026-07-31",
+  "adjudicator": "Turbo",
+  "adjudication_baseline": "8b2e19d957ab231d9f10bd2fb1af47881216c9ba",
+  "original_phase_10_seal": "41c95e422e71530c8e003484d04a1cf332c47fa6",
+  "original_scope_lock_draft": "0bf21c5f50c00d63594db3ea2fe13d908693d00d",
+  "step_1_audit_head": "dd714801cc4d5ac2eed2e1dfd411a3d2c42b07b4",
+  "step_2_commit": "f160fdbcf22f3458cfc460801df7b7f9d7637772",
+  "step_2a_commit": "8b2e19d957ab231d9f10bd2fb1af47881216c9ba",
+  "source_adjudication": {
+    "path": "outputs/planning/current/phase_11_scope_lock/ACI_P11_SCOPE_LOCK_001/FINAL_SCOPE_LOCK_ADJUDICATION.md",
+    "source_filename": "ACI-P11-SCOPE-LOCK-001_FINAL_SCOPE_LOCK_ADJUDICATION.md",
+    "sha256": "ce0fbb89e7570fbdb2202a0fcf2826345f04c336446170e45440bf44ff7947f1",
+    "size_bytes": 5697,
+    "line_count": 94,
+    "line_ending": "LF",
+    "terminal_newline_present": true,
+    "byte_identical_to_supplied_source": true
+  },
+  "scope_lock": {
+    "status": "APPROVED_SCOPE_LOCK",
+    "module_count": 18,
+    "algorithm_count": 9,
+    "capability_count": 12,
+    "build_stage_count": 12,
+    "requirement_count": 82,
+    "source_binding_count": 68,
+    "technical_blocker_count": 0,
+    "pending_technical_decision_count": 0,
+    "scope_lock_approved": true,
+    "implementation_authorized": false
+  },
+  "decision_freeze": {
+    "status": "FROZEN",
+    "decision_count": 13,
+    "resolved_by_governing_source": [
+      "P11-DEC-001",
+      "P11-DEC-002",
+      "P11-DEC-003",
+      "P11-DEC-004",
+      "P11-DEC-005",
+      "P11-DEC-007",
+      "P11-DEC-008",
+      "P11-DEC-009",
+      "P11-DEC-010",
+      "P11-DEC-012",
+      "P11-DEC-013"
+    ],
+    "nonblocking_later_phase": [
+      "P11-DEC-006"
+    ],
+    "rejected_as_out_of_scope": [
+      "P11-DEC-011"
+    ],
+    "blocking_unresolved": [],
+    "recommended_pending_approval": [],
+    "future_change_requires_separate_scope_lock_amendment": true
+  },
+  "approved_policies": {
+    "implementation_topology": "parallel aci_prototype/aci_phase11 package with aci_prototype/tests_phase11 and explicit compatibility adapters",
+    "package_identity": "aci_phase11",
+    "working_release_identity": "Minimal ACI Phase 11 Full Module Integration v0.2.0-draft",
+    "type_policy": "VERSIONED_PHASE11_CONTRACTS_WITH_EXPLICIT_V0_1_ADAPTERS",
+    "stable_value_policy": "PRESERVE_BY_CLOSED_WIRE_MAPPING",
+    "direct_aggregate_reuse": "PROHIBITED",
+    "lossy_reverse_conversion": "REJECT",
+    "compatibility_strategy": "independent v0.1 execution plus explicit adapters and differential classifications UNCHANGED, AUTHORIZED_EXTENSION, INTENTIONAL_REJECTION, or REGRESSION",
+    "evidence_profile_policy": "Phase 11 evidence envelope binding deterministic module/test results and carrying v1 or explicitly negotiated normalized_graph_v2",
+    "evidence_profile_schema_deadline": "before P11-STAGE-11",
+    "recursive_escalation_policy": "configurable visible bound with initial deterministic default 3 and visited (target, route, authority_need) signatures",
+    "rollback_policy": "restore every changed in-memory state, graph, and governance domain to baseline equivalence while preserving the aborted-attempt audit",
+    "algorithm_completion_policy": "implement every bounded target in the algorithm matrix; removing a stub label without substantive typed behavior is insufficient",
+    "threshold_policy": "visible deterministic bounded updates through registry, planning, governance, audit, and rollback; learned calibration deferred",
+    "constitutional_amendment_policy": "out of scope; typed amendment-review delay and escalation only",
+    "adapter_bridge_policy": "no bridge before successful P11-STAGE-11 conformance; any bridge is optional, removable, separately authorized, and no earlier than P11-STAGE-12 or post-Phase-11",
+    "release_policy": "candidate releases v0.2.0-rcN; separate Turbo acceptance may grant v0.2.0; canonical replacement requires separate authority"
+  },
+  "accepted_core": {
+    "archive_id": "ACI-MIN-v0.1.0-20260701-R1",
+    "unchanged": true,
+    "independently_executable": true,
+    "reproducibly_archived": true,
+    "accepted_core_authority_promoted_to_phase_11": false
+  },
+  "phase_11_authority": {
+    "scope_lock_approved": true,
+    "scope_lock_decisions_frozen": true,
+    "implementation_authorized": false,
+    "stage_1_contract_drafting_authorized": true,
+    "stage_1_contract_drafting_effective_after_verified_seal": true,
+    "stage_1_implementation_authorized": false,
+    "stage_2_through_stage_12_implementation_authorized": false
+  },
+  "later_phase_authority": {
+    "phase_12_continuity_authorized": false,
+    "phase_13_functional_identity_authorized": false,
+    "phase_14_arc_authorized": false,
+    "phase_15_external_validation_authorized": false
+  },
+  "non_claims": [
+    "no production readiness",
+    "no process-crash durability",
+    "no distributed commit",
+    "no database recovery",
+    "no external-storage durability",
+    "no governed functional continuity",
+    "no functional identity",
+    "no consciousness or personhood",
+    "no ARC performance",
+    "no external validation",
+    "no canonical replacement of accepted v0.1",
+    "no adapter promotion into accepted core",
+    "no Phase 11 implementation",
+    "no P11-STAGE-01 implementation"
+  ],
+  "publication": {
+    "transaction_type": "TWO_COMMIT_SCOPE_LOCK_APPROVAL_AND_CHECKSUM_SEAL",
+    "approval_commit_binding": "CONTAINING_COMMIT",
+    "checksum_seal_binding": "IMMEDIATE_CHECKSUM_ONLY_CHILD_COMMIT",
+    "effective_when": "BOTH_COMMITS_VERIFIED_AND_PUSHED",
+    "partial_publication_authorized": false
+  },
+  "next_authorized_operation": {
+    "task_id": "ACI-P11-STAGE-01-CONTRACT-001",
+    "title": "Integration Topology and Compatibility Scaffold Implementation Contract",
+    "drafting_authorized": true,
+    "drafting_effective_after_verified_seal": true,
+    "implementation_authorized": false
+  }
+}

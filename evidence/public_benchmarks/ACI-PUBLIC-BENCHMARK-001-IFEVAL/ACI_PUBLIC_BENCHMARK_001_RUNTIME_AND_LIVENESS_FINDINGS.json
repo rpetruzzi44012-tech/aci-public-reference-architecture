@@ -1,0 +1,47 @@
+{
+  "benchmark_id": "ACI-PUBLIC-BENCHMARK-001-IFEVAL",
+  "classification": "MODEL_RUNTIME_LIVENESS_FINDINGS_SEPARATE_FROM_ACI_PERFORMANCE",
+  "full_120": {
+    "captured_candidate_count": 0,
+    "classification": "STRONG_EVIDENCE_OF_PATHOLOGICAL_ACTIVE_GENERATION_WITHOUT_TERMINAL_CANDIDATE",
+    "elapsed_seconds": 5381,
+    "external_liveness_observation": {
+      "interpretation": "SUPPORTS_ACTIVE_COMPUTE_PATHOLOGY_HYPOTHESIS_NOT_A_CAPTURED_MODEL_CANDIDATE",
+      "llama_server_cpu_approx_percent": 400,
+      "llama_server_rss_approx_gb": 5.05,
+      "provenance": "USER_PASTED_TURBO_OBSERVATION_NOT_INDEPENDENTLY_REPLAYED_BY_CODEX",
+      "sample_elapsed": "1:21:53"
+    },
+    "proven_literal_nontermination": false,
+    "semantic_answer_measured": false,
+    "terminal_failure": {
+      "message": "POST http://127.0.0.1:11434/api/chat failed: RemoteDisconnected: Remote end closed connection without response",
+      "type": "BenchmarkHarnessError"
+    }
+  },
+  "methodological_ruling": "The campaign stopped rather than changing model-facing generation semantics. Adding num_predict, changing model/context, changing streaming semantics, or regenerating completed cases would create a different experiment after observation.",
+  "schema_version": 1,
+  "transport_epochs": [
+    {
+      "epoch": 1,
+      "finding": "FULL-037 M0 twice reached the envelope without a captured candidate",
+      "read_envelope_seconds": 180
+    },
+    {
+      "epoch": 2,
+      "findings": [
+        "FULL-037 M0 produced its first captured candidate",
+        "FULL-052 M0 exhausted two 900-second no-candidate attempts"
+      ],
+      "read_envelope_seconds": 900
+    },
+    {
+      "epoch": 3,
+      "findings": [
+        "FULL-052 M0 eventually produced its first captured candidate",
+        "FULL-120 M0 ran 5381 seconds and produced no captured candidate before explicit interruption/remote disconnect"
+      ],
+      "read_envelope": "COMPLETION_BOUNDED"
+    }
+  ]
+}

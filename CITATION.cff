@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this reference architecture, please cite it as below."
+title: "Architectures of Coherent Intelligence: Public Reference Architecture"
+version: "0.1.0"
+authors:
+  - family-names: "Petruzzi"
+    given-names: "Robert Joseph"
